@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OX>
+    <OXMENU id="NAVIGATION_ESHOPADMIN">
+        <MAINMENU id="TC_CLEVERREACH">
+            <SUBMENU id="TC_CLEVERREACH_CONFIG" cl="CleverReachFrames" list="CleverReachList">
+                <TAB id="TC_CLEVERREACH_START" cl="CleverReachConfig"/>
+                <TAB id="TC_CLEVERREACH_CSV" cl="CleverReachManualCsv"/>
+            </SUBMENU>
+        </MAINMENU>
+    </OXMENU>
+</OX>

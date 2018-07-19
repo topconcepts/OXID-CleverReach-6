@@ -1,0 +1,301 @@
+@import "bootstrap.min.css";
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome-webfont.eot?v=4.4.0');
+    src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.4.0') format('embedded-opentype'),
+    url('../fonts/fontawesome-webfont.woff2?v=4.4.0') format('woff2'),
+    url('../fonts/fontawesome-webfont.woff?v=4.4.0') format('woff'),
+    url('../fonts/fontawesome-webfont.ttf?v=4.4.0') format('truetype'),
+    url('../fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+div.box h3 {
+    margin-bottom: 0;
+}
+
+.tc_input_field {
+    width: 215px;
+}
+
+.tc_td_config_name {
+    width: 130px;
+}
+
+.box {
+    background-image: url(../../../out/src/img/tc_logo.jpg);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+table.fixed {
+    table-layout: fixed;
+}
+
+table.fixed td {
+    overflow: hidden;
+}
+
+table tr.align-top td {
+    vertical-align: top;
+}
+
+.sign {
+    float: left;
+    font-size: 25px;
+    color: #bababa;
+    width: 30px;
+    min-height: 60px;
+    cursor: pointer;
+}
+
+.sign.plus {
+    background: url("[{ $oViewConf->getModuleUrl('tccleverreach', 'out/src/img/plus.png')}]") no-repeat center;
+}
+
+.sign.minus {
+    background: url("[{ $oViewConf->getModuleUrl('tccleverreach', 'out/src/img/minus.png')}]") no-repeat center;
+}
+
+.cr-container {
+    border-bottom: 1px solid #E1E1E1;
+}
+
+.cr-config-row {
+    width: 100%;
+    height: 61px;
+    cursor: pointer;
+}
+
+.cr-config-row .text {
+    float: left;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.config-data tr:nth-child(odd) {
+    background-color: #F6F6F6;
+}
+
+.config-data td {
+    height: 60px;
+    padding: 0 15px;
+    white-space: nowrap;
+}
+
+.config-data tr td:first-child {
+    min-width: 220px;
+}
+
+.config-data input[type=text] {
+    height: 35px;
+    border: 1px #CCC solid;
+    border-radius: 0;
+    padding: 0 10px 0 10px;
+    color: #737373;
+}
+
+.first-usage {
+    margin: 0 0 15px 0;
+    max-width: 740px;
+    text-align: center;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.panel-body {
+    padding: 15px;
+}
+
+.panel-body:before,
+.panel-body:after {
+    content: " ";
+    display: table;
+}
+
+.panel-body:after {
+    clear: both;
+}
+
+.panel-body:before,
+.panel-body:after {
+    content: " ";
+    display: table;
+}
+
+.panel-body:after {
+    clear: both;
+}
+
+.panel-default {
+    border-color: #dddddd;
+}
+
+.first-usage .panel .panel-body {
+    padding: 30px 45px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.first-usage .panel .btn-success {
+    font-weight: 300;
+    border: 0;
+    font-size: 16px;
+    padding: 12px 60px;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #f60;
+    border-color: #f60;
+}
+
+.btn-success:hover {
+    text-decoration: underline;
+}
+
+.panel .btn-default {
+    font-weight: 300;
+    border: 0;
+    font-size: 14px;
+    padding: 8px 30px;
+    background: #292D33;
+    color: #ffffff;
+}
+
+.oauth-status {
+    margin: 0 0 15px 0;
+    max-width: 740px;
+    text-align: center;
+}
+
+.oauth-status a {
+    text-decoration: underline;
+    color: red;
+}
+
+.status-indicator {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+}
+
+.status-indicator.connected {
+    background-color: #0fba06;
+}
+
+.status-indicator.disconnected {
+    background-color: red;
+}
+
+.panel-body i {
+    font-size: 52px;
+    color: #D8D8D8;
+}
+
+.kl-tooltip i {
+    font-size: 20px;
+    color: #A0A0A0;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    -webkit-font-smoothing: antialiased;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    display: inline;
+    width: auto;
+    height: auto;
+    line-height: normal;
+    vertical-align: baseline;
+    background-image: none;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    margin-top: 0;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    text-decoration: inherit;
+    display: inline-block;
+    speak: none;
+}
+
+.icon-group:before {
+    content: "\f0c0";
+}
+
+.fa-check-square-o:before {
+    content: "\f046";
+}
+
+.fa-check-square-o {
+    font-family: FontAwesome;
+    font-size: 52px;
+    color: #f60;
+}
+
+.container {
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+.modal-body {
+    cursor: pointer;
+}
+
+.tc_div_paths {
+    border: 1px solid lightgrey;
+    padding: 10px 8px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    width: 90%;
+}
+
+.tooltip_templates {
+    display: none;
+}
+
+.fa-chain-broken {
+    color: red
+}
+
+#form-disconnect-list {
+    display: initial;
+}
