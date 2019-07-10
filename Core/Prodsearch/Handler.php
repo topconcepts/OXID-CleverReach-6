@@ -6,7 +6,7 @@ namespace TopConcepts\CleverReach\Core\Prodsearch;
 use OxidEsales\Eshop\Core\DatabaseProvider;
 use OxidEsales\Eshop\Core\Registry;
 use OxidEsales\Eshop\Core\Request;
-use TopConcepts\CleverReach\Controller\CleverReachProdsearchController;
+use TopConcepts\CleverReach\Model\CleverReachProdsearch;
 
 /**
  * Handles incoming search request from prodsearch_controller
@@ -61,7 +61,7 @@ class Handler
                 password = ? LIMIT 1";
 
         $id     = DatabaseProvider::getDB()->getOne($query, array($passwd));
-        $search = oxNew(CleverReachProdsearchController::class);
+        $search = oxNew(CleverReachProdsearch::class);
         $loaded = $search->load($id);
 
         if ($loaded === false) {
