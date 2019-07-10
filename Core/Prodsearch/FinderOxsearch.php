@@ -10,7 +10,7 @@ use OxidEsales\Eshop\Application\Model\Search;
  *
  * @class tc_cleverreach_prodsearch_finder_oxsearch
  */
-class FinderOxsearch implements Finder
+class FinderOxsearch # implements Finder
 {
 
     /**
