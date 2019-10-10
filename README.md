@@ -1,5 +1,5 @@
 # OXID-CleverReach-6
-OXID eShop Plugin to integrate CleverReach® - Version 4.1 - for OXID eShop version 6.0.X
+OXID eShop Plugin to integrate CleverReach® - Version 4.1.1 - for OXID eShop version 6.0.X
 
 ## INSTALL ##
 
@@ -7,10 +7,10 @@ OXID eShop Plugin to integrate CleverReach® - Version 4.1 - for OXID eShop vers
 
 In the main folder of your project run:
 
-    composer require topconcepts/oxid-cleverreach-6:v4.1.0
+    composer require topconcepts/oxid-cleverreach-6:v4.1.1
 
 
 ## CREDITS ##
 
 Find out more about our CleverReach® services for individual templates and interfaces on our website at:
-https://www.topconcepts.de/cleverreach/
+https://www.cgrd.de/cleverreach/
