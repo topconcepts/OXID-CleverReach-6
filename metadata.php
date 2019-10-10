@@ -26,7 +26,7 @@ $aModule = [
     ],
     'description' => 'Dieses Modul ermöglicht es unkompliziert Kundendaten und Bestellungen nach CleverReach® zu übertragen.',
     'thumbnail'   => 'tc_logo.jpg',
-    'version'     => '4.1.0',
+    'version'     => '4.1.1',
     'author'      => 'top concepts GmbH',
     'email'       => 'support@topconcepts.com',
     'url'         => 'https://www.topconcepts.de',
