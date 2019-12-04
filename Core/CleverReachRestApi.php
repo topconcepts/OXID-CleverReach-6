@@ -263,7 +263,7 @@ class CleverReachRestApi
         curl_setopt($curl, CURLOPT_HTTPHEADER, $header);
         curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
         curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
-        curl_setopt($curl, CURLOPT_SSLVERSION, 4);
+        curl_setopt($curl, CURLOPT_SSLVERSION, 6);
     }
 
     /**
